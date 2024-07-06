@@ -8,8 +8,9 @@
     "email": "contact@wensenwu.com"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && touch ./build/.nojekyll",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
