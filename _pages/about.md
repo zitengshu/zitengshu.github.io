@@ -6,7 +6,7 @@ subtitle: Machine Learning Systems Architect | Full-Stack Developer | Infrastruc
 
 profile:
   align: right
-  image: about_pic.jpg
+  image: about_pic.png
   image_circular: true # crops the image to make it circular
   more_info: # None
 
