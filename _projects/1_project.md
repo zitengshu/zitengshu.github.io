@@ -5,7 +5,6 @@ description: Performance, Latency ANalysis and Testing for Data pipelines
 img: assets/img/plantd.webp
 importance: 1
 category: work
-related_publications: true
 ---
 
 ## Overview
@@ -39,16 +38,19 @@ The development of PlantD involved overcoming several key challenges. First, the
 
 ## Technology Stack
 
-- Kubernetes: Deployed PlantD as a cloud-native platform, utilizing Kubernetes to orchestrate experiments and manage resources efficiently.
-- Prometheus: Integrated Prometheus for real-time telemetry collection, enabling detailed monitoring and analysis of pipeline performance.
-- K6: Used K6 to simulate load patterns and generate high-volume synthetic data, allowing for comprehensive testing of pipeline performance under different scenarios.
-- Docker: Containerized the platform to ensure consistent deployment across various environments, making PlantD easy to install and scale.
+- **Kubernetes**: Deployed PlantD as a cloud-native platform, utilizing Kubernetes to orchestrate experiments and manage resources efficiently.
+- **Prometheus and Thanos**: Integrated Prometheus for real-time telemetry collection, with **Thanos** for persisting long-term metrics, ensuring data durability and scalability for performance analysis.
+- **OpenTelemetry Collector**: Used OpenTelemetry Collector for collecting, aggregating, and preprocessing metrics from multiple nodes, enabling comprehensive monitoring and performance evaluation.
+- **K6**: Employed K6 to simulate load patterns and generate high-volume synthetic data, allowing for extensive testing of pipeline performance under various scenarios.
+- **Go Routines**: Parallelized the synthetic data generator using Go routines to optimize performance and handle large-scale data generation efficiently.
+- **OpenCost**: Applied OpenCost for cost measurement, providing detailed insights into the resource usage and cost implications of running experiments on the platform.
+- **Docker**: Containerized the platform to ensure consistent deployment across different environments, simplifying scalability and management.
 
 ## Results
 
-- Scalability: PlantD successfully supports large-scale experiments, handling complex data pipelines with high performance and reliability.
-- Extensibility: The modular design of the system allows for easy integration of new features and supports a wide range of data pipeline configurations and load patterns.
-- Business Insights: PlantD provides detailed metrics and performance data, empowering businesses to optimize their data pipelines and reduce operational costs through informed decision-making.
+- **Scalability**: PlantD successfully supports large-scale experiments, handling complex data pipelines with high performance and reliability.
+- **Extensibility**: The modular design of the system allows for easy integration of new features and supports a wide range of data pipeline configurations and load patterns.
+- **Business Insights**: PlantD provides detailed metrics and performance data, empowering businesses to optimize their data pipelines and reduce operational costs through informed decision-making.
 
 ## Conclusion
 
