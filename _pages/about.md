@@ -21,7 +21,6 @@ In my spare time, I enjoy staying active and challenging myself. I’ve recently
 
 I'm also a dedicated gamer. My recent favorite is Elden Ring, though I’ve yet to find time to dive into Black Myth: Wu Kong, despite its popularity. And yes, I'm a meat lover, always up for a good steak!
 
-
 **Let’s Connect**:
 
 I’m always open to discussing exciting opportunities, whether it’s collaborating on a project, building machine learning systems, or optimizing performance at scale.
